@@ -49,7 +49,9 @@ Implementation & Guardrails
 
 **Future Roadmap**
 -[ ] Diversity Penalty: Implementing fitness penalties for repetitive ingredients within a single day.
+
 -[ ] Multi-Objective Macro Balancing: Optimizing dynamic Carbohydrate-Fat ratios.
+
 -[ ] Streamlit Deployment: Building an interactive web interface for real-time meal generation.
 
 Closing Note for Recruiters

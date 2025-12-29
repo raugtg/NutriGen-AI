@@ -33,11 +33,17 @@ Implementation & Guardrails
 
 **Project Structure**
 ├── dataset/            # Processed TKPI nutritional data
+
 ├── notebooks/          # Exploratory Data Analysis & Convergence Testing
+
 ├── src/                
+
 │   ├── engine.py       # Genetic Algorithm core (Selection, Crossover, Mutation)
+
 │   ├── nutrition.py    # TDEE & METs calculation logic
+
 │   └── filter.py       # Semantic cleaning & allergy management
+
 └── README.md
 
 **Future Roadmap**

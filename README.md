@@ -48,6 +48,7 @@ Implementation & Guardrails
 └── README.md
 
 **Future Roadmap**
+
 -[ ] Diversity Penalty: Implementing fitness penalties for repetitive ingredients within a single day.
 
 -[ ] Multi-Objective Macro Balancing: Optimizing dynamic Carbohydrate-Fat ratios.

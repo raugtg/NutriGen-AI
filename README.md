@@ -20,29 +20,23 @@ This hybrid approach ensures that caloric targets adapt to the user's specific p
    - Semantic Filtering: A preprocessing pipeline using Regex to eliminate non-consumable or "noise" data(e.g., illegal or
    culturally irrelevant food items) from the TKPI dataset.
 
-## Performance & Convergence
-Convergence Analysis
-The model demonstrates high efficiency, reaching stability (convergence) within 100 generations. The fitness curve illustrates the system's ability to minimize error through iterative selection and mutation.
+## Performance & Accuracy Benchmarks
 
-| User Profile | Goal | Target Energy | Result Energy | Accuracy |
-| :--- | :--- | :--- | :--- | :--- |
-| Male, 51kg | Bulking | 2465.13 kcal | 2465.09 kcal | **99.99%** |
-| Male, 90kg | Cutting | 1926.24 kcal | 1926.04 kcal | **99.98%** |
-| Female, 50kg | Maintenance | 1320.86 kcal | 1320.85 kcal | **100.00%** |
+The engine consistently hits nutritional targets with near-zero margins of error across various user profiles:
 
-<p align="center">
-  <img src="images/convergence-bulking.png" width="550" title="Convergence Plot">
-</p>
+| User Case | Goal | Constraints | Target Energy | Result Energy | Accuracy |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **The Heavy Cutter** | Fat Loss | 180g Protein | 1926.24 kcal | 1926.15 kcal | **99.99%** |
+| **The Restricted Bulker** | Weight Gain | No Chicken, Egg, Fish | 2623.83 kcal | 2623.34 kcal | **99.98%** |
+| **The Average User** | Maintenance | Balanced Diet | 1746.19 kcal | 1745.68 kcal | **99.97%** |
 
-## Accuracy Benchmarks
-The engine consistently hits nutritional targets with near-zero margins of error:
-
-### Convergence Analysis
-The graph below illustrates the optimization process. The engine typically converges within 100 generations, achieving maximum precision and stability.
+## Convergence Analysis
+The graph below illustrates the optimization process for a high-intensity "Bulking" scenario. The engine typically achieves maximum stability and precision within 100 generations.
 
 <p align="center">
-  <img src="images/convergence_bulking.png" width="550" title="Convergence benchmark">
+  <img src="images/convergence_bulking.png" width="550" title="Convergence Plot">
 </p>
+
 
 
 ## Implementation & Guardrails
@@ -68,7 +62,7 @@ The graph below illustrates the optimization process. The engine typically conve
 
 ## Future Roadmap
 
-- [ ] Diversity Penalty: Implementing fitness penalties for repetitive ingredients within a single day.
+- [x] Diversity Penalty: Implementing fitness penalties for repetitive ingredients within a single day.
 
 - [ ] Multi-Objective Macro Balancing: Optimizing dynamic Carbohydrate-Fat ratios.
 

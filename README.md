@@ -36,7 +36,12 @@ The model demonstrates high efficiency, reaching stability (convergence) within 
 ## Accuracy Benchmarks
 The engine consistently hits nutritional targets with near-zero margins of error:
 
-plt.savefig('images/convergence_bulkingt.png', dpi=300)
+### Convergence Analysis
+The graph below illustrates the optimization process. The engine typically converges within 100 generations, achieving maximum precision and stability.
+
+<p align="center">
+  <img src="images/convergence_bulking.png" width="550" title="Convergence benchmark">
+</p>
 
 
 ## Implementation & Guardrails

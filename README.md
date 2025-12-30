@@ -23,8 +23,20 @@ This hybrid approach ensures that caloric targets adapt to the user's specific p
 Convergence Analysis
 The model demonstrates high efficiency, reaching stability (convergence) within 100 generations. The fitness curve illustrates the system's ability to minimize error through iterative selection and mutation.
 
+| User Profile | Goal | Target Energy | Result Energy | Accuracy |
+| :--- | :--- | :--- | :--- | :--- |
+| Male, 51kg | Bulking | 2465.13 kcal | 2465.09 kcal | **99.99%** |
+| Male, 90kg | Cutting | 1926.24 kcal | 1926.04 kcal | **99.98%** |
+| Female, 50kg | Maintenance | 1320.86 kcal | 1320.85 kcal | **100.00%** |
+
+<p align="center">
+  <img src="images/convergence-bulking.png" width="550" title="Convergence Plot">
+</p>
+
 ## Accuracy Benchmarks
 The engine consistently hits nutritional targets with near-zero margins of error:
+
+plt.savefig('images/convergence_bulkingt.png', dpi=300)
 
 
 ## Implementation & Guardrails

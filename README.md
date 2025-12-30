@@ -6,7 +6,7 @@ NutriGen-AI is an automated meal-planning engine powered by Genetic Algorithms (
 1. Hybrid Energy Expenditure Modeling
 The system calculates highly personalized daily energy targets by integrating clinical formulas with real-time activity metrics:
 
-TDEE = (RMR x PAL) + (Daily Steps x METs) + (Workout Duration x METs)
+$$TDEE = (RMR x PAL) + (Daily Steps x METs) + (Workout Duration x METs)$$
 
 This hybrid approach ensures that caloric targets adapt to the user's specific profession (PAL) and actual physical exertion (METs).
 

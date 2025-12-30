@@ -58,7 +58,11 @@ The graph below illustrates the optimization process for a high-intensity "Bulki
 
 │   └── filter.py       # Semantic cleaning & allergy management
 
+└── .gitignore
+
 └── README.md
+
+└── requirements.txt
 
 ## Future Roadmap
 

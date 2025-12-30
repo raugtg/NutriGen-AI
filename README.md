@@ -1,4 +1,5 @@
-# NutriGen-AI: High-Precision Nutrition Optimization Engine #
+#  NutriGen-AI: Genetic Algorithm for Nutrition Optimization
+> **Achieving 99.9% precision in meal planning through evolutionary computation.**
 
 NutriGen-AI is an automated meal-planning engine powered by Genetic Algorithms (GA) designed to solve multi-objective optimization problems in daily nutritional intake. Unlike conventional diet applications, this system generates meal plans with 99.9% accuracy (caloric error tolerance < 1 kcal) while maintaining culinary logic and dietary variety.
 
